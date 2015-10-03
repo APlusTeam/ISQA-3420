@@ -3,12 +3,11 @@
 This file holds all definitions about the DFD Diagram.
 
 ## External Entities
-Fossology: External repository that holds information about source code, such as vulnerabilities... It returns information in SPDX format. 
+* Fossology: External repository that holds information about source code, such as vulnerabilities... It returns information in SPDX format. 
 
 ## Internal Entities
-Corporate Developer: This is one of the company's asset. The Corpoerate Developer is the entry point of external software into the company.
-
-Corporate Manager: Manages the project, and its information.
+* Corporate Developer: This is one of the company's asset. The Corpoerate Developer is the entry point of external software into the company.
+* Corporate Manager: Manages the project, and its information.
 
 ## Data Flow
 File: Piece of source code.
