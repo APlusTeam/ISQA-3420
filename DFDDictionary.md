@@ -3,7 +3,8 @@
 This file holds all definitions about the DFD Diagram.
 
 ## External Entities
-* Fossology: External repository that holds information about source code, such as vulnerabilities... It returns information in SPDX format. 
+* Fossology: CPE provider. It holds the standard name of packages.
+* National Vulnerability Database:
 
 ## Internal Entities
 * Corporate Developer: This is one of the company's asset. The Corpoerate Developer is the entry point of external software into the company.
@@ -17,12 +18,23 @@ This file holds all definitions about the DFD Diagram.
 * File Information: Information about the source code, such as vulnerabilities .
 * File Information Request: Request for information about some piece of software.
 * File Information Response: Contains information about the source code file.
-* Project Information Request: Request for information about the project, such as vulnerabilities, status and etc.
-* Project Information Response: Information about projects, such as vulnerabilities, status and etc.
+* Project Model Request: Request for information about the project, such as vulnerabilities, status and etc.
+* Project Model Response: Information about projects, such as vulnerabilities, status and etc.
+* Package Query:
+* CPE Information:
+* CPE Request:
+* CPE Response:
+* Project Model Response / Policy Information Request:
+* Policy Information Request:
+* Policy Information Response:
 
 ## Data Store
 * SPDX DB: Database that holds information about files (piece of source code), such as vulnerabilities.
+* Policy DB:
 
 ## Processes
 * Managing Code: Process of storing information about new source code, such as vulnerabilities, licenses.
 * Managing Project Information: Supply project information of source code, such as vulnerabilities, licenses and etc. 
+* NIST CPE Info:
+* Manage CPE Response Info (daily chron job):
+* Manage Policy Information:
