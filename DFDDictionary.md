@@ -3,7 +3,7 @@
 This file holds all definitions about the DFD Diagram.
 
 ## External Entities
-* National Vulnerability Database: 
+* National Vulnerability Database: NVD is the U.S. government repository of standards based vulnerability management data.
 
 ## Internal Entities
 * Corporate Developer: This is one of the company's asset. The Corporate Developer is the entry point of external software to the company.
@@ -26,13 +26,19 @@ This file holds all definitions about the DFD Diagram.
 * CPE Info: It is the new version of the XML that holds CPE information.
 * CPE Request: It requests a new version of the XML that holds CPE information.
 * CPE Response: It is the response containing the new version of the XML that holds CPE information.
+* Project Info Response/Policy Info Request: It sends the information about the open source package, and it requests policy info.
+* Policy Info Response: It is the result of the compliance check performed on the Manage Policy Information process.
+* Policy Info Request: It requests information about the company's policy about open source software.
+* Policy Info Response: It is the the company's policy about open source software.
 
 ## Data Store
 * NIST CPE Information: It holds the standard (global) names for packages of softwares. It is a XML file that is held locally. It is downloaded from the National Vulnerability Database website.
 * SPDX DB: Database that holds information about open source software, such as standard name, licenses, vulnerabilities, etc.
+* Policy DB: Data store that holds the company's policy information.
 
 ## Processes
 * Manage Code Streams: Process of gathering information about open source software, such as licenses and vulnerabilities. This process also persists the information into the company database.
 * FOSSology: Process of gathering information about licenses for specific files or packages.
 * Manage Project Information: Provides information about a specified open source code. 
 * Manage CPE Information (Daily Job): This process is responsible to update the NIST CPE Information data store by downloading the latest version from the National Vulnerability Database.
+* Manage Policy Information: This process takes the information about the open source software and check to see if there is a match between the package licenses and vulnerabilities with the company's policy.
