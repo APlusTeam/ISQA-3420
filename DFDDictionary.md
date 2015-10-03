@@ -3,38 +3,22 @@
 This file holds all definitions about the DFD Diagram.
 
 ## External Entities
-* Fossology: CPE provider. It holds the standard name of packages.
-* National Vulnerability Database:
+
 
 ## Internal Entities
-* Corporate Developer: This is one of the company's asset. The Corpoerate Developer is the entry point of external software into the company.
-* Corporate Manager: Manages the project, and its information.
+Corporate Developer: This is one of the company's asset. The Corporate Developer is the entry point of external software to the company.
 
 ## Data Flow
 * File: Piece of source code.
 * Package: Collection of files.
-* File SHA1: Encription code of a file.
-* File SHA1 Response: "yes" or "no". It is based on the existence of information about the file on the database.
-* File Information: Information about the source code, such as vulnerabilities .
-* File Information Request: Request for information about some piece of software.
-* File Information Response: Contains information about the source code file.
-* Project Model Request: Request for information about the project, such as vulnerabilities, status and etc.
-* Project Model Response: Information about projects, such as vulnerabilities, status and etc.
-* Package Query:
-* CPE Information:
-* CPE Request:
-* CPE Response:
-* Project Model Response / Policy Information Request:
-* Policy Information Request:
-* Policy Information Response:
+* File/Package: File or Package
+* License Info: List of licenses of the file or package.
+* Package Query: The current name of the package.
+* CPE Information: Standard name of a package.
 
 ## Data Store
-* SPDX DB: Database that holds information about files (piece of source code), such as vulnerabilities.
-* Policy DB:
+* NIST CPE Information: It holds the standard (global) names for packages of softwares.
 
 ## Processes
-* Managing Code: Process of storing information about new source code, such as vulnerabilities, licenses.
-* Managing Project Information: Supply project information of source code, such as vulnerabilities, licenses and etc. 
-* NIST CPE Info:
-* Manage CPE Response Info (daily chron job):
-* Manage Policy Information:
+* Manage Code Streams: Process of gathering information about open source software, such as licenses and vulnerabilities. This process also persists the information into the company database.
+* FOSSology: Process of gathering information about licenses for specific files or packages.
