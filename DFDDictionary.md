@@ -30,6 +30,8 @@ This file holds all definitions about the DFD Diagram.
 * Policy Info Response: It is the result of the compliance check performed on the Manage Policy Information process.
 * Policy Info Request: It requests information about the company's policy about open source software.
 * Policy Info Response: It is the the company's policy about open source software.
+* Request CVE Information: This is the request sent to the National Vulrability Database for Common Vulnrabilities and Exposures
+* CVE Information: This is the response to the CVE Information Request, returns the CVE information itself.
 
 ## Data Store
 * NIST CPE Information: It holds the standard (global) names for packages of softwares. It is a XML file that is held locally. It is downloaded from the National Vulnerability Database website.
