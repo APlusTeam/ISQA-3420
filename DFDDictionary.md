@@ -6,13 +6,11 @@ This file holds all definitions about the DFD Diagram.
 * National Vulnerability Database: NVD is the U.S. government repository of standards based vulnerability management data.
 
 ## Internal Entities
-* Corporate Developer: This is one of the company's asset. The Corporate Developer is the entry point of external software to the company.
+* Version Control System: The company's internal source code repository.
 * Corporate Manager: Manages the project, and its information.  
 
 ## Data Flow
-* File: Piece of source code.
-* Package: Collection of files.
-* File/Package: File or Package
+* File/Package: Single file or collection of files (package).
 * License Info: List of licenses of the file or package.
 * Package Query: The current name of the package.
 * CPE Information: Standard name of a package.
@@ -21,8 +19,6 @@ This file holds all definitions about the DFD Diagram.
 * File License and CPE Information: Information about the source code, such as standard name, licenses, vulnerabilities, etc.
 * Project Info Request: it requests information about the project, such as what open source software is being utilized on the project and what are licenses and vulnerabilities.
 * Project Info Response: It contains information about projects, such as what open source software is being utilized on the project and what are licenses and vulnerabilities.
-* File Info Request: It requests information about a piece of software.
-* File Info Response: it contains information about the source code, such as standard name, licenses, vulnerabilities, etc.
 * CPE Info: It is the new version of the XML that holds CPE information.
 * CPE Request: It requests a new version of the XML that holds CPE information.
 * CPE Response: It is the response containing the new version of the XML that holds CPE information.
@@ -32,6 +28,8 @@ This file holds all definitions about the DFD Diagram.
 * Policy Info Response: It is the the company's policy about open source software.
 * Request CVE Information: This is the request sent to the National Vulrability Database for Common Vulnrabilities and Exposures
 * CVE Information: This is the response to the CVE Information Request, returns the CVE information itself.
+* Project File (via build system): ...
+* Package Info: ...
 
 ## Data Store
 * NIST CPE Information: It holds the standard (global) names for packages of softwares. It is a XML file that is held locally. It is downloaded from the National Vulnerability Database website.
