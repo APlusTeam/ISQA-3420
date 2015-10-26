@@ -1,5 +1,3 @@
-This is the use case 1 
-
 1. **Title**: Determine License and Vulnerability
 2. **Primary Actor**: Corporate Manager
 3. **Goal in Context**: The corporate manager is able to determine license and vulnerability information from provided project
