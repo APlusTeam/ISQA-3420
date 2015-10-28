@@ -6,7 +6,7 @@ This file holds all definitions about the DFD Diagram.
 * National Vulnerability Database: NVD is the U.S. government repository of standards based vulnerability management data.
 
 ## Internal Entities
-* Version Control System: The company's internal source code repository.
+* Corporate Developer: Builds the project, and report to the corporate managers.
 * Corporate Manager: Manages the project, and its information.  
 
 ## Data Flow
@@ -28,8 +28,11 @@ This file holds all definitions about the DFD Diagram.
 * Policy Info Response: It is the the company's policy about open source software.
 * Request CVE Information: This is the request sent to the National Vulrability Database for Common Vulnrabilities and Exposures
 * CVE Information: This is the response to the CVE Information Request, returns the CVE information itself.
-* Project File (via build system): ...
-* Package Info: ...
+* Project File/Info Request: A request by the corporate manager; For the files of the project, or project info
+* Package File/Info Response: A repsonse to the corporate managers; contains whatever was requested.
+* File / Package
+* Project File
+* License and Vulrability Info
 
 ## Data Store
 * NIST CPE Information: It holds the standard (global) names for packages of softwares. It is a XML file that is held locally. It is downloaded from the National Vulnerability Database website.
@@ -42,3 +45,5 @@ This file holds all definitions about the DFD Diagram.
 * Manage Project Information: Provides information about a specified open source code. 
 * Manage CPE Information (Daily Job): This process is responsible to update the NIST CPE Information data store by downloading the latest version from the National Vulnerability Database.
 * Manage Policy Information: This process takes the information about the open source software and check to see if there is a match between the package licenses and vulnerabilities with the company's policy.
+* Version Control System: The company's internal source code repository. This process helps manage commits and changes to the codebase.
+* Licesnse Scanner: 
