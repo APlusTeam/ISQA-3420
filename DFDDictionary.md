@@ -3,7 +3,7 @@
 This file holds all definitions about the DFD Diagram.
 
 ## External Entities
-* National Vulnerability Database: NVD is the U.S. government repository of standards based vulnerability management data.
+* National Vulnerability Database: National Instute of Standards and Technology's NVDB is a repository maintained by the United States government, containingof standards based vulnerability management data.
 
 ## Internal Entities
 * Corporate Developer: Builds the project, and report to the corporate managers.
@@ -19,9 +19,9 @@ This file holds all definitions about the DFD Diagram.
 * File License and CPE Information: Information about the source code, such as standard name, licenses, vulnerabilities, etc.
 * Project Info Request: it requests information about the project, such as what open source software is being utilized on the project and what are licenses and vulnerabilities.
 * Project Info Response: It contains information about projects, such as what open source software is being utilized on the project and what are licenses and vulnerabilities.
-* CPE Info: It is the new version of the XML that holds CPE information.
-* CPE Request: It requests a new version of the XML that holds CPE information.
-* CPE Response: It is the response containing the new version of the XML that holds CPE information.
+* CPE Info: It is the new version of the XML that holds Common Platform Enumeration information.
+* CPE Request: It requests a new version of the XML that holds Common Platform Enumeration information.
+* CPE Response: It is the response containing the new version of the XML that holds Common Platform Enumeration information.
 * Project Info Response/Policy Info Request: It sends the information about the open source package, and it requests policy info.
 * Policy Info Response: It is the result of the compliance check performed on the Manage Policy Information process.
 * Policy Info Request: It requests information about the company's policy about open source software.
@@ -32,11 +32,11 @@ This file holds all definitions about the DFD Diagram.
 * Package File/Info Response: A repsonse to the corporate managers; contains whatever was requested.
 * File / Package: The files or packages of the project
 * Project File: The file of the project
-* License and Vulrability Info: Information returned from FOSSology and NIST DB regarding the licenese and CVEs.
+* License and Vulrability Info: Information returned from FOSSology and NIST National Vulnerability Database regarding the licenese and CVEs.
 
-## Data Store
+## Data Stores
 * NIST CPE Information: It holds the standard (global) names for packages of softwares. It is a XML file that is held locally. It is downloaded from the National Vulnerability Database website.
-* SPDX DB: Database that holds information about open source software, such as standard name, licenses, vulnerabilities, etc.
+* SPDX DB: Software Package Data Exchange Database that holds information about open source software, such as standard name, licenses, vulnerabilities, etc.
 * Policy DB: Data store that holds the company's policy information.
 
 ## Processes
