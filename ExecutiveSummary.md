@@ -5,3 +5,5 @@ This project is being developed to address the lack of information about open so
 
 
 ##Solution
+
+We are going to use open source software to our maximum benefit with our project. For our solution, we are using the service FOSSology for a license manifests, as well as cross referencing all of our packages with the NIST National Vulberability Database for Common Platform Enumberation information reports. Our project CPE reports will also be bundled with all the Common Vulunerabilities and Exposures reports for all of our included packages. Between our corporate developers and our corporate managers, we have designed a diagram that bridges them, detailing the data flows between the entities and processes during the building phase of our project with little ambiguity. The main bridge between the managers and developers is the Software Package Data Exchange tool, which generates reports for our managers as existing software is added and used by the developers. With these tools at our disposal, we are building the best, securest product possile.
