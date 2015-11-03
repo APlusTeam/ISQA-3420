@@ -1,5 +1,3 @@
-This is use case 3.
-
 1. **Title**: FOSSology
 2. **Primary Actor**: Version Control System
 3. **Goal in Context**: To scan the File/Package for license information, and then the process updates the SPDX databsase. 
