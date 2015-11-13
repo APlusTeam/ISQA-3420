@@ -4,7 +4,7 @@ This file holds all definitions about the DFD Diagram.
 
 ## External Entities
 * National Vulnerability Database: National Instute of Standards and Technology's NVDB is a repository maintained by the United States government, containingof standards based vulnerability management data.
-* OS Community: Represents open source repositories to which source code taken from the community is re-published.
+* OSS Community: Represents open source repositories to which source code taken from the community is re-published.
 
 ## Internal Entities
 * Corporate Developer: Builds the project, and report to the corporate managers.
@@ -36,6 +36,10 @@ This file holds all definitions about the DFD Diagram.
 * License and Vulrability Info: Information returned from FOSSology and NIST National Vulnerability Database regarding the licenese and CVEs.
 * CVE Info Request: This is the request sent to the National Vulrability Database for Common Vulnrabilities and Exposures
 * CVE Info Response: This is the response sent from the National Vulrability Database for Common Vulnrabilities and Exposures
+* Request OSS License Compliance: This is the request sent to developers to check what open source softwares need to be sent back to the community. 
+* OSS License Compliance Response: This is the developer's response about the status of the OSS License Compliance. This response update managers about the status of the task.
+* Modified Package: The open source software taken from the community with modifications made by developers to fit into the organization's need.
+
 
 ## Data Stores
 * NIST CPE Information: It holds the standard (global) names for packages of softwares. It is a XML file that is held locally. It is downloaded from the National Vulnerability Database website.
@@ -52,3 +56,4 @@ This file holds all definitions about the DFD Diagram.
 * Licesnse Scanner: This process provides information about what licenses are in packages for the open source software used.
 * Vulnerability Lookup: This process is responsible for using CPE information to query the National Vulnerability Database for CVE information
 * Contribute Code to Community: This process is for contributing any code back to the OS community that was taken from it by the developers.
+* OSS License Compliance: This process defines formal request/response for software license compliance between managers and developers.
