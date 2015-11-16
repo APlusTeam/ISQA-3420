@@ -36,7 +36,7 @@ This file holds all definitions about the DFD Diagram.
 * Project File: The file of the project
 * License and Vulrability Info: Information returned from FOSSology and NIST National Vulnerability Database regarding the licenese and CVEs.
 * CVE Info Request: This is the request sent to the National Vulrability Database for Common Vulnrabilities and Exposures
-* CVE Info Response: This is the response sent from the National Vulrability Database for Common Vulnrabilities and Exposures
+* CPE and CVE Info: This is the response sent from the National Vulrability Database for Common Platform Enumeration and Common Vulnrabilities and Exposures.
 * Request OSS License Compliance: This is the request sent to developers to check what open source softwares need to be sent back to the community. 
 * OSS License Compliance Response: This is the developer's response about the status of the OSS License Compliance. This response update managers about the status of the task.
 * Modified Package: The open source software taken from the community with modifications made by developers to fit into the organization's need.
