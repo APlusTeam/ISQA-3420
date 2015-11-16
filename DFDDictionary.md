@@ -39,13 +39,14 @@ This file holds all definitions about the DFD Diagram.
 * CPE and CVE Info: This is the response sent from the National Vulrability Database for Common Platform Enumeration and Common Vulnrabilities and Exposures.
 * Request OSS License Compliance: This is the request sent to developers to check what open source softwares need to be sent back to the community. 
 * OSS License Compliance Response: This is the developer's response about the status of the OSS License Compliance. This response update managers about the status of the task.
+* Request Modified Package: Developers send a request to get the source code from a specified package.
 * Modified Package: The open source software taken from the community with modifications made by developers to fit into the organization's need.
-
 
 ## Data Stores
 * NIST CPE Information: It holds the standard (global) names for packages of softwares. It is a XML file that is held locally. It is downloaded from the National Vulnerability Database website.
 * License DB: Software Package Data Exchange Database that holds information about open source software, such as standard name, licenses, vulnerabilities, etc.
 * Policy DB: Data store that holds the company's policy information.
+* OSS Code Repo: this data store holds the modified files and packages that were taken from the community. It helps developers when contributing back to the community in order to accomplish the OSS License Compliance.
 
 ## Processes
 * Manage Code Streams: Process of gathering information about open source software, such as licenses and vulnerabilities. This process also persists the information into the company database.
