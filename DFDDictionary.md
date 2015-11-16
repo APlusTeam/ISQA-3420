@@ -18,7 +18,7 @@ This file holds all definitions about the DFD Diagram.
 * CPE Information: Standard name of a package.
 * File SHA1 Request: Encription code of a file.
 * File SHA1 Response: "Yes" or "No". It is based on the existence of information about the file on the database.
-* File License and CPE Information: Information about the source code, such as standard name, licenses, vulnerabilities, etc.
+* File License, CPE and CVE Info: Information about the source code, such as standard name, licenses, vulnerabilities, etc.
 * Project Info Request: it requests information about the project, such as what open source software is being utilized on the project and what are licenses and vulnerabilities.
 * Project Info: It contains information about projects, such as what open source software is being utilized on the project and what are licenses and vulnerabilities.
 * Project Policy Comparison: It is a report originated from the comparison between the project information and the corporate policy.
