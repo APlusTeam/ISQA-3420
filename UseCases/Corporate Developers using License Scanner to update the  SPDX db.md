@@ -1,4 +1,4 @@
-1. **Title**: FOSSology
+1. **Title**: License Scanner
 2. **Primary Actor**: Corporate Developer
 3. **Goal in Context**: To scan the File/Package for license information, and then the License Scanner process updates the License DB. 
 4. **Stakeholders and Interests**: Corporate Manager, Version Control System
