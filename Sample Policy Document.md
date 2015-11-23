@@ -6,6 +6,7 @@
   CopyLeft <br>
       GPLv2 - Red <br>
       GPLv3 - Black <br>
+  
   Permissive <br>
       Apache - Yellow <br>
       MIT - Green 
