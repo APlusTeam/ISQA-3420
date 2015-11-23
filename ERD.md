@@ -1,1 +1,1 @@
-![erd_1 1](https://cloud.githubusercontent.com/assets/12487092/11199324/2cac5dbe-8c92-11e5-8d33-b9da3bb3d806.png)
+![erd_1 2](https://cloud.githubusercontent.com/assets/12487092/11349828/e4e2a148-91f3-11e5-9dee-316e3b6a2462.png)
