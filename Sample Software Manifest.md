@@ -1,4 +1,4 @@
-###Sample Software Manifest & Sample Policy Document place holder.
+###Sample Software Manifest
 
 #Document
   DocumentLicense: <br>
