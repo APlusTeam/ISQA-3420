@@ -2,27 +2,27 @@
 
 #Document
   DocumentLicense: <br>
-  Author:
-  DateCreated:
-  LastUpdatedDate:
+  Author: <br>
+  DateCreated: <br>
+  LastUpdatedDate: <br>
   Location:
   
 #Package
-  Name:
-  SHA1:
-  CPE:
-  Licenses:
-  Vulnerabilities:
-  Location:
-  Size:
+  Name: <br>
+  SHA1: <br>
+  CPE: <br>
+  Licenses: <br>
+  Vulnerabilities: <br>
+  Location: <br>
+  Size: <br>
   LastUpdatedDate:
   
 #File
-  Name:
-  SHA1:
-  CPE:
-  Licenses:
-  Vulnerabilities:
-  Location:
-  Size:
+  Name: <br>
+  SHA1: <br>
+  CPE: <br>
+  Licenses: <br>
+  Vulnerabilities: <br>
+  Location: <br>
+  Size: <br>
   LastUpdatedDate:
