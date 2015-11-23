@@ -1,7 +1,7 @@
 ###Sample Software Manifest & Sample Policy Document place holder.
 
 #Document
-  DocumentLicense:
+  DocumentLicense: <br>
   Author:
   DateCreated:
   LastUpdatedDate:
