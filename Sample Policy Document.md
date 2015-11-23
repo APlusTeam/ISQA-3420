@@ -12,5 +12,5 @@
 
 #Vulnerabilities
   Scores <br>
-      0 < X < 6 - Yellow
+      0 < X < 6 - Yellow <br>
       X > 6 - Red
