@@ -59,3 +59,4 @@ This file holds all definitions about the DFD Diagram.
 * Vulnerability Lookup: This process is responsible for using CPE information to query the National Vulnerability Database for CVE information
 * Contribute Code to Community: This process is for contributing any code back to the OS community that was taken from it by the developers.
 * OSS License Compliance: This process defines formal request/response for software license compliance between managers and developers.
+* Manage OSS Code Repository: This process is responsible for query and update the OSS Code Repository data source. When a developer commits to the Version Control System, jenkins will automatically trigger a request to update the OSS Code Repository data source with the modified code. When the developer want to contribute back to the community, he/she will request the modified code. This process will return a package that contains the modified code.
