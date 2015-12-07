@@ -1,3 +1,10 @@
+## APlusTeam
+* Github repository:
+### Members: 
+* Adolfo M. Hengling: amarangonihengling
+* Eric Penner: vylest 
+* Matthew Tracy: gasrcpro
+
 ## Slide 1: DFD Overview
 * Social Responsibility
 * Process of contributing back to the community
