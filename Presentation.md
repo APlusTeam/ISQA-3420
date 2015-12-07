@@ -1,5 +1,6 @@
 ## APlusTeam
-* Github repository:
+* Github repository: https://github.com/APlusTeam/ISQA-3420
+
 ### Members: 
 * Adolfo M. Hengling: amarangonihengling
 * Eric Penner: vylest 
