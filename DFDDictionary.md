@@ -25,7 +25,6 @@ This file holds all definitions about the DFD Diagram.
 * CPE Info: It is the new version of the XML that holds Common Platform Enumeration information.
 * CPE Information Request: It requests a new version of the XML that holds Common Platform Enumeration information.
 * CPE Information Response: It is the response containing the new version of the XML that holds Common Platform Enumeration information.
-* Project Info Response/Policy Info Request: It sends the information about the open source package, and it requests policy info.
 * Policy Info Response: It is the result of the compliance check performed on the Manage Policy Information process.
 * Policy Info Request: It requests information about the company's policy about open source software.
 * Policy Info Response: It is the the company's policy about open source software.
@@ -33,7 +32,6 @@ This file holds all definitions about the DFD Diagram.
 * Project File/Info Request: A request by the corporate manager; For the files of the project, or project info
 * Package File/Info Response: A repsonse to the corporate managers; contains whatever was requested.
 * File / Package: The files or packages of the project
-* Project File: The file of the project
 * License and Vulrability Info: Information returned from FOSSology and NIST National Vulnerability Database regarding the licenese and CVEs.
 * CVE Info Request: This is the request sent to the National Vulrability Database for Common Vulnrabilities and Exposures
 * CPE and CVE Info: This is the response sent from the National Vulrability Database for Common Platform Enumeration and Common Vulnrabilities and Exposures.
